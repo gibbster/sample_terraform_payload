@@ -3,5 +3,5 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket_prefix = "sample_bucket_for_pipeline"
+  bucket_prefix = "sample-bucket-for-pipeline"
 }
