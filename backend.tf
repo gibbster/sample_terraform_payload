@@ -3,9 +3,9 @@
 #the dynamodb table also must be created manually
 terraform {
   backend "s3" {
-    bucket         = "slalom-sf-lab-terraform"
+    bucket         = "gibby-devtest-terraform-state"
     key            = "payload.tfstate"
     encrypt        = true
-    region         = "us-east-2"
+    region         = "us-west-2"
   }
 }
