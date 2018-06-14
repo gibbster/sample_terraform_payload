@@ -1,8 +1,5 @@
 provider "aws" {
   region = "us-west-2"
-  assume_role {
-    role_arn     = "arn:aws:iam::864342982195:role/devtest_admin"
-  }
 }
 
 resource "aws_s3_bucket" "b" {
