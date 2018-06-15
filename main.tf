@@ -1,5 +1,8 @@
 resource "aws_s3_bucket" "b" {
   bucket_prefix = "sample-bucket-for-pipeline"
+  tags {
+    env = "dev"
+  }
 }
 
 resource "aws_s3_bucket" "c" {
