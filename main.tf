@@ -12,3 +12,7 @@ resource "aws_s3_bucket" "c" {
 resource "aws_s3_bucket" "d" {
   bucket_prefix = "fizzbizz"
 }
+
+resource "aws_s3_bucket" "e" {
+  bucket_prefix = "foobarbaz"
+}
